@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "PestControlCenter",
+    "slug": "PestControlCenter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "useFrameworks": "static"  
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.spark.pestControl"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f7cb9b09-27f5-40b7-9dce-3de1d2317fbb"
+      }
+    }
+  }
+}
